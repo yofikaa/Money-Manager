@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="337.0" style="-fx-background-color: #ffffcc;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bismillah.MasukController">
+   <children>
+      <ImageView fitHeight="494.0" fitWidth="337.0">
+         <image>
+            <Image url="@../img/money.jpg" />
+         </image>
+      </ImageView>
+      <JFXPasswordField fx:id="inputpin" layoutX="117.0" layoutY="168.0" maxWidth="197.0" minWidth="141.0" prefHeight="31.0" prefWidth="141.0" />
+      <Label layoutX="126.0" layoutY="115.0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="237.0" text="Don't have an account?">
+         <font>
+            <Font name="AnkeSans" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnsignup" layoutX="206.0" layoutY="233.0" onAction="#signup" text="Sign Up">
+         <font>
+            <Font name="AnkeSans" size="12.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="64.0" layoutY="32.0" text="Money Manager">
+         <font>
+            <Font name="Just tell me what" size="34.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="34.0" fitWidth="36.0" layoutX="82.0" layoutY="165.0">
+         <image>
+            <Image url="@../img/login.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="78.0" layoutY="104.0" text="Login to access your account">
+         <font>
+            <Font name="AnkeSans" size="14.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="75.0" layoutY="208.0" onAction="#login" prefHeight="25.0" prefWidth="189.0" style="-fx-background-color: #cce6ff;" text="OK" />
+   </children>
+</AnchorPane>
